@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Code Summit - Home</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="head">
+      <div class="logo">
+        <img src="assets/initialslogo.png" alt="Code Summit Logo" />
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#aboutUs">Sobre Nós</a></li>
+          <li><a href="#">Mais</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="main-container">
+        <div class="main-box">
+          <h2 class="main-subtitle">&lth1&gt Olá, mundo!&lt/h1&gt</h2>
+          <h2 class="main-title">&ltp&gt Nossos códigos levam ao topo&lt/p&gt</h2>
+          <div class="main-logo">
+            <img src="assets/codesummit-black.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="cards">
+      <article class="card">
+        <ion-icon class="card-icons" name="diamond-outline"></ion-icon>
+        <h3 class="card-name">Design Único</h3>
+        <p class="card-description">Mais que aparência: criamos experiências visuais que encantam, conectam e transformam visitantes em clientes.</p>
+      </article>
+      <article class="card">
+        <ion-icon class="card-icons" name="rocket-outline"></ion-icon>
+        <h3 class="card-name">Inovação</h3>
+        <p class="card-description">Usamos tecnologia e criatividade para desenvolver soluções dinâmicas, rápidas e inteligentes — prontos para acompanhar as mudanças do mundo digital.</p>
+      </article>
+      <article class="card">
+        <ion-icon class="card-icons" name="tv-outline"></ion-icon>
+        <h3 class="card-name">Estratégia Digital</h3>
+        <p class="card-description">Planejamos cada detalhe para que seu site não seja apenas visualmente atraente, mas também gere resultados reais. Unimos design, conteúdo e tecnologia para alcançar os objetivos do seu negócio no ambiente online.</p>
+      </article>
+      <article class="card">
+        <ion-icon class="card-icons" name="finger-print-outline"></ion-icon>
+        <h3 class="card-name">Identidade Visual</h3>
+        <p class="card-description" id="aboutUs">Construímos marcas com alma e estratégia. Cada elemento é pensado para transmitir credibilidade, emoção e coerência em todas as plataformas.</p>
+      </article>
+    </section>
+    <section class="informations" >
+      <h2 class="information-title" >Sobre Nós</h2>
+      <nav class="informations-nav">
+        <ul class="informations-nav-list">
+          <li class="informations-nav-list-li active" onclick="choosebtn1()">O que fazemos</li>
+          <li class="informations-nav-list-li" onclick="choosebtn2()">Nossa Visão</li>
+          <li class="informations-nav-list-li" onclick="choosebtn3()">Habilidades</li>
+        </ul>
+        <article class="informations-artcile informations-artcile-1">
+          <h3 class="informations-artcile-title">Construímos experiências digitais que inspiram</h3>
+          <p class="informations-artcile-text">
+            Transformamos ideias em experiências digitais marcantes. Do design à estratégia, criamos sites e marcas que conectam pessoas, contam histórias e impulsionam negócios.
+          </p>
+        </article>
+        <article class="informations-artcile informations-artcile-2 nonactive">
+          <h3 class="informations-artcile-title">Transformando o futuro com códigos inteligentes</h3>
+          <p class="informations-artcile-text">
+          Na Code Summit, nossa visão é redefinir como a tecnologia capacita pessoas e empresas. Acreditamos que cada linha de código deve construir algo maior — eficiência, conexão e
+          inovação. Buscamos ser mais do que desenvolvedores: somos criadores da evolução digital. Nosso objetivo é moldar um mundo onde a tecnologia amplifique o potencial humano, simplifique a complexidade e
+          conecte ideias que transformam.
+          </p>
+        </article>
+        <article class="informations-artcile informations-artcile-3 nonactive">
+          <p class="informations-artcile-text">
+            <div>
+            <ion-icon name="logo-html5"></ion-icon>
+            <ion-icon name="logo-css3"></ion-icon>
+            <ion-icon name="logo-nodejs"></ion-icon>
+            </div>
+            <div>
+            <ion-icon name="logo-react"></ion-icon>
+            <ion-icon name="logo-vue"></ion-icon>
+            <ion-icon name="logo-angular"></ion-icon>
+            </div>
+            <div>
+            <ion-icon name="logo-python"></ion-icon>
+            <ion-icon name="logo-pwa"></ion-icon>
+            <ion-icon name="logo-github"></ion-icon>
+            </div>
+          </p>
+        </article>
+      </nav>
+    </section>
+    <section class="contact">
+      <article class="contact-content">
+        <h2 class="contact-title" id="contact" >Você sonha,<br> nós fazemos!</h2>
+        <p class="contact-text">
+        Entre em contato e nos deixe fazer parte desse sonho!
+        </p>
+        <footer class="foot">
+        <a href="https://wa.me/5547988129920"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <ion-icon name="logo-instagram"></ion-icon>
+        </footer>
+      </article>
+      <article class="contact-form">
+        <form action="#" method="post"></form>
+        <fieldset>
+          <div class="form-input"><label for="name">Seu nome :</label><input autocomplete="off" required name="name" id="name" type="text" placeholder="Nome Completo"></div>
+          <div class="form-input"><label for="email">Seu E-mail :</label><input autocomplete="off" required name="email" id="email" type="email" placeholder="Email"></div>
+          <div class="form-input"><label for="tel">Seu telefone :</label><input autocomplete="off" required name="tel" id="tel" type="tel" placeholder="(xx) xxxxx-xxxx"></div>
+          <label for="tel">Escreva sua mensagem</label><textarea name="text" id="text" cols="50" rows="10"></textarea>
+          <input class='btn' type="submit" value="Send">
+        </fieldset>
+      </article>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    </div>
+  </body>
+</html>
